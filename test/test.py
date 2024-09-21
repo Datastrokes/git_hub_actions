@@ -11,8 +11,3 @@ def test_sub():
     assert sub(3,1)==2
     assert sub(5,2)==3
     print("sub test end")
-
-if __name__=="__main__":
-    test_add()
-    test_sub()
-
