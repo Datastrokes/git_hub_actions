@@ -1,10 +1,3 @@
-import os
-import sys
-from pathlib import Path
-
-path=Path(os.path.abspath(os.path.dirname(__file__))).parent.parent
-sys.path.append(str(path))
-print("path is added")
 from example.src.math_operation import add,sub
 print("example is imported")
 def test_add():
