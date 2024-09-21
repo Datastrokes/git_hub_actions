@@ -1,11 +1,11 @@
 
-'''import os
+import os
 from pathlib import Path
 import sys
 path=Path(os.path.abspath(os.path.dirname(__file__))).parent.parent
-sys.path.append(str(path))'''
+sys.path.append(str(path))
 
-from src.math_operation import add,sub
+from Example_2.src.math_operation import add,sub
 print("example is imported")
 def test_add():
     assert add(2,3)==5
